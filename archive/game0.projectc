@@ -1,6 +1,6 @@
 [project]
 title = web-novel-test
-version = 0.4
+version = 0.5
 write_log = 0
 compress_archive = 1
 publisher = unnamed
@@ -10,7 +10,7 @@ title_as_file_name = webnoveltest
 [display]
 width = 1080
 height = 1920
-high_dpi = 0
+high_dpi = 1
 samples = 0
 fullscreen = 0
 update_frequency = 0
