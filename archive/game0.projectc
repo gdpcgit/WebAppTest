@@ -10,15 +10,15 @@ title_as_file_name = webnoveltest
 [display]
 width = 540
 height = 960
-high_dpi = 0
+high_dpi = 1
 samples = 0
 fullscreen = 0
 update_frequency = 0
 swap_interval = 1
 vsync = 1
 display_profiles = /builtins/render/default.display_profilesc
-dynamic_orientation = 0
-display_device_info = 0
+dynamic_orientation = 1
+display_device_info = 1
 
 [render]
 clear_color_red = 0
@@ -163,9 +163,9 @@ archive_location_prefix = archive
 archive_location_suffix = 
 engine_arguments = --verify-graphics-calls=false
 wasm_streaming = 0
-show_fullscreen_button = 1
+show_fullscreen_button = 0
 show_made_with_defold = 0
-show_console_banner = 1
+show_console_banner = 0
 scale_mode = downscale_fit
 
 [particle_fx]

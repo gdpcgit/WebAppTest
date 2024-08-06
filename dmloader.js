@@ -50,8 +50,6 @@ var CUSTOM_PARAMETERS = {
         var prevInnerHeight = -1;
         
         
-        buttonHeight = 42;
-        
         // Hack for iOS when exit from Fullscreen mode
         if (is_iOS) {
             window.scrollTo(0, 0);
@@ -96,6 +94,8 @@ var CUSTOM_PARAMETERS = {
     
     
         var dpi = 1;
+    
+        dpi = window.devicePixelRatio || 1;
     
         app_container.style.width = width + "px";
         app_container.style.height = height + buttonHeight + "px";
